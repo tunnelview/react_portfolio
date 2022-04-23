@@ -1,5 +1,6 @@
 import React from "react";
 import proj from "../../assets/logo1.png";
+import { Row, Col, Container } from "react-bootstrap";
 
 export const Projects = () => {
   return (
