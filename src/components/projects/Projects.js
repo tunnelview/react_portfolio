@@ -96,9 +96,7 @@ export const Projects = () => {
               </div>
               <p class="mt-5">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Pariatur id amet soluta tenetur voluptatibus sint animi! Dolore,
-                sint facilis. Voluptates iusto a culpa, nemo saepe ipsa nulla
-                architecto modi dolorum.
+                Pariatur id amet soluta tenetur voluptatibus sint animi!
               </p>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </Col>
