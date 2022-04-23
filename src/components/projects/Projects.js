@@ -100,10 +100,7 @@ export const Projects = () => {
                 sint facilis. Voluptates iusto a culpa, nemo saepe ipsa nulla
                 architecto modi dolorum.
               </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
-                aut perferendis architecto debitis mollitia adipisci.
-              </p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </Col>
           </Row>
         </div>
