@@ -1,4 +1,5 @@
 import React from "react";
+import second from "../../assets/logo.png";
 
 export const TopNav = () => {
   return (

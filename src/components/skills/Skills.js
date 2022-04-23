@@ -1,5 +1,5 @@
 import React from "react";
 
-export const skills = () => {
+export const Skills = () => {
   return <div>skills</div>;
 };

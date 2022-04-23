@@ -1,5 +1,5 @@
 import React from "react";
 
-export const skills = () => {
+export const Footer = () => {
   return <div>skills</div>;
 };
