@@ -1,5 +1,5 @@
 import React from "react";
-import second from "../../assets/logo.png";
+import logo from "../../assets/logo.png";
 
 export const TopNav = () => {
   return (
@@ -7,7 +7,7 @@ export const TopNav = () => {
       <nav class="navbar navbar-expand-md navbar-light ">
         <div class="container">
           <a class="navbar-brand" href="#">
-            <img src="./assets/logo.png" alt="" width="70px"></img>
+            <img src={logo} alt="" width="70px"></img>
           </a>
           <button
             class="navbar-toggler"
