@@ -1,8 +1,9 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 
 export const Contact = () => {
   return (
-    <section id="contact" class="container">
+    <Container id="contact" class="container">
       <div class="contact-icons rounded py-3">
         <div class="sec-title fs-1 fw-bolder text-center m-auto mt-5">
           Contact Me
@@ -29,6 +30,6 @@ export const Contact = () => {
           </a>
         </div>
       </div>
-    </section>
+    </Container>
   );
 };
