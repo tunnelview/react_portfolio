@@ -16,17 +16,17 @@ export const App = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <div class="wrapper">
+        {/* <div class="wrapper">
           <div id="top-nav" class="top-nav">
             <TopNav />
-            {/* <Hero /> */}
-          </div>
-          <Route path="/skills" element={<Skills />} />
-          <Projects />
+            <Hero />
+          </div> */}
+        <Route path="/" element={<Skills />} />
+        {/* <Projects />
           <AboutMe />
           <Contact />
-          <Footer />
-        </div>
+          <Footer /> */}
+        {/* </div> */}
       </Routes>
     </BrowserRouter>
   );
