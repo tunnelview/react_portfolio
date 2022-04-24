@@ -1,17 +1,19 @@
 import React from "react";
 import gry from "../../assets/garry.png";
 
+import { Container, Row, Col } from "react-bootstrap";
+
 export const Hero = () => {
   return (
     <div class="hero">
-      <div class="container">
-        <div class="row mt-5 py-3">
+      <Container class="container">
+        <Row className="mt-5 py-3">
           {/* <!-- below md take 12 grid --> */}
-          <div class="col-md-6 text-center order-md-2">
+          <Col md="6" class=" text-center order-md-2">
             <img src={gry} alt="" width="50%" />
-          </div>
+          </Col>
 
-          <div class="col-md-6 pt-5 d-flex flex-column justify-content-evenly">
+          <Col md="6" class=" pt-5 d-flex flex-column justify-content-evenly">
             <h5>Hi, I am Garry Amasia</h5>
             <h1>Software Engineer | Dented Code</h1>
             <p class="pt-5">
@@ -21,11 +23,11 @@ export const Hero = () => {
               corporis voluptatum facere autem.
             </p>
             {/* <!-- note!text-danger has !important rule --> */}
-          </div>
+          </Col>
 
           {/* <!-- text-end is bootstrap class to put everything to the right inside its container --> */}
-        </div>
-      </div>
+        </Row>
+      </Container>
     </div>
   );
 };

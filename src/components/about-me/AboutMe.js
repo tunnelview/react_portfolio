@@ -1,15 +1,16 @@
 import React from "react";
+import { Col, Container, Row } from "react-bootstrap";
 
 export const AboutMe = () => {
   return (
-    <section id="about" class="container">
+    <Container id="about" class="container">
       <div class="sec-title fs-1 fw-bolder text-center m-auto mt-5">
         About Me
       </div>
-      <div class="row mt-5">
-        <div class="col-md-4 text-center mb-4">
+      <Row class=" mt-5">
+        <Col md="4" class=" text-center mb-4">
           <img src="./assets/programming.jpeg" alt="" width="90%" />
-        </div>
+        </Col>
 
         <div class="col-md-7">
           <p>
@@ -23,7 +24,7 @@ export const AboutMe = () => {
             eveniet.
           </p>
         </div>
-      </div>
-    </section>
+      </Row>
+    </Container>
   );
 };
